@@ -1,0 +1,73 @@
+baseURL = 'https://garrardkitchen.github.io/termorq-learn/'
+locale = 'en-GB'
+title = 'Termorq Learn'
+theme = 'hugo-theme-relearn'
+enableGitInfo = false
+enableEmoji = true
+
+[outputs]
+  home = ['html', 'rss', 'print']
+  section = ['html', 'rss', 'print']
+  page = ['html', 'rss', 'print']
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.parser.attribute]
+    block = true
+  [markup.highlight]
+    lineNumbersInTable = false
+    noClasses = false
+
+[params]
+  linkTitle = 'Termorq Learn'
+  author.name = 'Garrard Kitchen'
+  themeVariant = ['auto', 'zen-light', 'zen-dark', 'relearn-light', 'relearn-dark']
+  showVisitedLinks = true
+  collapsibleMenu = true
+  alwaysopen = false
+  disableLandingPageButton = true
+  disableGeneratorVersion = true
+  disableShortcutsTitle = true
+  editURL = 'https://github.com/garrardkitchen/termorq-learn/edit/main/content/${FilePath}'
+  # Reference documentation for the product (task-based Learn links out to it).
+  docsURL = 'https://termorq-docs.garrardkitchen.com/docs/'
+  [params.logo]
+    src = '/images/logo.png'
+    layout = 'sidebar-row'
+
+  # Lesson-template callout styles. See CONVENTIONS.md.
+  [[params.boxStyle]]
+    identifier = 'goal'
+    title = 'Goal'
+    icon = 'bullseye'
+    color = '#0f766e'
+  [[params.boxStyle]]
+    identifier = 'checkrun'
+    title = 'Check your run'
+    icon = 'circle-check'
+    color = '#166534'
+  [[params.boxStyle]]
+    identifier = 'exercise'
+    title = 'Exercise'
+    icon = 'dumbbell'
+    color = '#7c3aed'
+  [[params.boxStyle]]
+    identifier = 'pro'
+    title = 'Pro feature'
+    icon = 'crown'
+    color = '#b45309'
+  [[params.boxStyle]]
+    identifier = 'notrunnable'
+    title = 'Not runnable yet'
+    icon = 'ban'
+    color = '#9f1239'
+
+[[menu.shortcuts]]
+  name = '<i class="fa-fw fas fa-book"></i> Termorq reference docs'
+  url = 'https://termorq-docs.garrardkitchen.com/docs/'
+  weight = 10
+[[menu.shortcuts]]
+  name = '<i class="fa-fw fab fa-github"></i> Source on GitHub'
+  url = 'https://github.com/garrardkitchen/termorq-learn'
+  weight = 20
