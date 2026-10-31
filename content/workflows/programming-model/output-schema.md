@@ -8,6 +8,8 @@ weight: 3
 Publish typed properties that downstream blocks can rely on. **Time:** 15 minutes.
 {{% /callout %}}
 
+![Schema tab of the properties inspector listing breaking, features, fixes, and score as numbers](/images/app/workflows-inspector-schema.png "The Schema tab: the properties this block publishes and their types. Browser preview with sample data.")
+
 ## Two modes
 
 | Mode | When | What gets published |

@@ -10,7 +10,7 @@ Find every part of the Workflows page you'll use in later stages. **Time:** 10 m
 
 ## The list
 
-![Workflow list with trigger filters, multi-select export, and row actions](/images/app/workflows-list.png "Workflow list (browser preview).")
+![Workflow list with trigger filters, multi-select export, and row actions](/images/app/workflows-list.png "Workflow list grouped by source, with trigger and result columns. Browser preview with sample data.")
 
 - The **All**, **Yours**, **Included**, and **Workspace** chips filter by source.
 - The trigger pills filter by trigger type: **Manual**, **Schedule**, **At startup**, **After workflow**, **File change**, **HTTP request**, **Telegram**.
@@ -19,7 +19,7 @@ Find every part of the Workflows page you'll use in later stages. **Time:** 10 m
 
 ## The editor
 
-![React Flow canvas with the properties inspector](/images/app/workflows-reactflow-mock.png "Canvas and properties inspector (illustrative mock).")
+![Canvas with Trigger, Greet, and Shout blocks, and the Code tab of the properties inspector](/images/app/workflows-canvas.png "Canvas and properties inspector (Code tab). Browser preview with sample data.")
 
 | Area | What it's for |
 | --- | --- |
@@ -30,7 +30,7 @@ Find every part of the Workflows page you'll use in later stages. **Time:** 10 m
 | **Triggers** | Choose the one active automatic trigger. |
 | **Runs** | This workflow's run history. |
 
-![Nodes aligned with Arrange](/images/app/workflows-auto-arrange.png "Arrange lays the main flow out left to right.")
+![Nodes aligned with Arrange](/images/app/workflows-auto-arrange.png "Arrange lays the main flow out left to right and stacks decision targets. Browser preview with sample data.")
 
 ## Keyboard and navigation
 
@@ -42,7 +42,7 @@ Find every part of the Workflows page you'll use in later stages. **Time:** 10 m
 | Pan the canvas | Hold **Space** and drag, or use the middle mouse button |
 | Close a picker | **Esc** |
 
-![Workflows in the jump list](/images/app/workflows-jump.png "Workflows entry in the jump list.")
+![Workflows in the jump list](/images/app/workflows-jump.png "Workflows entry in the jump list (Ctrl+J). Browser preview.")
 
 Runs keep going after you leave the page. When a run is in progress, the footer shows a chip such as **1 workflow running**. Click it to go back to the page.
 

@@ -19,6 +19,10 @@ Learn what each run state looks like, and find a failed block quickly. **Time:**
 
 With `prefers-reduced-motion: reduce`, the colours and labels stay and the motion is turned off.
 
+![A run in progress: finished blocks marked Done, Format Markdown running, and later blocks waiting](/images/app/workflows-run-canvas.png "A run in progress on the canvas, with the selected block's output in the inspector. Browser preview with sample data.")
+
+![Output tab of the properties inspector showing the Tally block's published JSON](/images/app/workflows-inspector-output.png "The Output tab shows what the selected block published. Browser preview with sample data.")
+
 ## Make it fail
 
 1. In *Pass a value*, change the `greet` body's last line to `print("not json")`.
@@ -27,7 +31,7 @@ With `prefers-reduced-motion: reduce`, the colours and labels stay and the motio
 4. Use **Copy input** and **Copy output** on a block to copy exactly what it received and returned. Secret values stay masked.
 5. Fix the line and run again.
 
-![Run history and details](/images/app/workflows.png "Workflows page (browser preview).")
+![Runs tab with five runs listed and the selected run's details and block input and output](/images/app/workflows-run-detail.png "Runs tab: run history on the left, the selected run's details on the right. Browser preview with sample data.")
 
 ## Pause and Stop
 

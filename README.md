@@ -1,6 +1,6 @@
 # Termorq Learn
 
-**Live site:** https://garrardkitchen.github.io/termorq-learn/
+**Live site:** https://termorq-learn.garrardkitchen.com/
 
 Termorq Learn is the hands-on tutorial site for [Termorq](https://termorq-docs.garrardkitchen.com/). The reference docs explain *what* each feature does. Learn takes you through building with it, one stage at a time.
 
@@ -55,7 +55,7 @@ Every push to `main` runs [`.github/workflows/pages.yml`](.github/workflows/page
 
 ## Attribution
 
-- Screenshots in `assets/images/app/` and the logo in `assets/images/logo.png` come from the Termorq documentation in [garrardkitchen/ai-terminal](https://github.com/garrardkitchen/ai-terminal) (`docs/learn/static/images/`). They're browser previews of the app.
+- Screenshots in `assets/images/app/` (except `shortcuts.png`) were captured on 31 October 2026 from the current Termorq Workflow designer (`garrardkitchen/ai-terminal` `main`, v0.53.0), running as a browser preview in headless Chrome with mocked Tauri commands and sample workflows, runs, and connections. They show real UI, but the data is fake. `shortcuts.png` and the logo in `assets/images/logo.png` come from the Termorq documentation in [garrardkitchen/ai-terminal](https://github.com/garrardkitchen/ai-terminal) (`docs/learn/static/images/`).
 - Product facts were checked against the Termorq source and reference docs at ai-terminal `eb9bdca`.
 - Theme: [Hugo Relearn](https://github.com/McShelby/hugo-theme-relearn) by Sören Weber and contributors (MIT).
 

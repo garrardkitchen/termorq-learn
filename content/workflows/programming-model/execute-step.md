@@ -8,7 +8,7 @@ weight: 5
 Iterate on a single code block in seconds, without triggers or a new entry on **Runs**. **Time:** 10 minutes.
 {{% /callout %}}
 
-![Code node editor with sample input, parameters, and output panels](/images/app/workflows-code-editor.png "Code editor: upstream data on the left, parameters in the centre, output on the right (component preview).")
+![Code node editor with sample input, parameters, and output panels](/images/app/workflows-code-editor.png "Code editor: upstream data on the left, parameters and snippet in the centre, output on the right. Browser preview with sample data.")
 
 ## Steps
 

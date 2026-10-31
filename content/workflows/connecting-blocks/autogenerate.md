@@ -8,7 +8,7 @@ weight: 5
 Let Termorq write the input-reading code and the `uses` list for you. **Time:** 10 minutes.
 {{% /callout %}}
 
-![Autogenerate panel with an MCP source node selected](/images/app/workflows-code-autogenerate.png "Autogenerate with an MCP source: inferred fields, an amber unknown type, and a Python preview.")
+![Autogenerate panel with an HTTP source node selected](/images/app/workflows-code-autogenerate.png "Autogenerate with an HTTP source with no output schema: status is always present, body will be added to the schema, and a Python preview. Browser preview with sample data.")
 
 ## Steps
 

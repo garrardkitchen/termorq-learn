@@ -9,6 +9,6 @@ weight: 90
 Triggers and their runs are part of Workflows (Pro). Triggers fire **only while Termorq is open**, and a missed schedule isn't replayed later.
 {{% /callout %}}
 
-![Single selected Schedule trigger in the Triggers page](/images/app/workflows-triggers.png "The Triggers page with Schedule selected.")
+![Single selected Schedule trigger in the Triggers page](/images/app/workflows-triggers.png "The Triggers page with Schedule selected. Browser preview with sample data.")
 
 {{% pages description="true" display="tree" %}}

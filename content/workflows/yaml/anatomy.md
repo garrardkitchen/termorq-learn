@@ -8,7 +8,7 @@ weight: 1
 Recognise every root key and write a complete file from memory. **Time:** 15 minutes.
 {{% /callout %}}
 
-![The same workflow as YAML](/images/app/workflows-yaml.png "The YAML tab: the same workflow as the canvas.")
+![The same workflow as YAML](/images/app/workflows-yaml.png "The YAML tab: the same workflow as the canvas. Browser preview with sample data.")
 
 ## Annotated example
 

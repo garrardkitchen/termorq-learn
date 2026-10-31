@@ -6,7 +6,7 @@ description: 'Hands-on tutorials for Termorq Workflows: build, code, connect, tr
 
 Build Termorq Workflows from your first block to a capstone pipeline that uses every runnable node type, all seven code languages, and an HTTP trigger.
 
-![The Workflows page in Termorq](/images/app/workflows.png "The Workflows page. Screenshots are browser previews from the Termorq repository; saving and execution need the desktop app.")
+![The Workflows editor in Termorq: a trigger, HTTP and Python blocks, and a decision with two routes](/images/app/workflows.png "The Workflows editor. Screenshots are browser previews of the current Termorq designer with sample data; saving and execution need the desktop app.")
 
 {{% callout style="pro" %}}
 Workflows are a **Pro** feature and sit behind **Settings → Experimental → Workflows**, which is off by default. Free builds don't offer the flag or the page. See [Free and Pro](https://termorq-docs.garrardkitchen.com/docs/settings/editions/).

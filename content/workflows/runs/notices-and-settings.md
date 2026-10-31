@@ -18,7 +18,7 @@ Tune how runs report their progress, and the defaults for new workflows. **Time:
 
 ## Settings → Workflows
 
-![Settings filtered to workflow, with the listener defaults](/images/app/workflows-settings.png "Settings → Workflows.")
+![Settings filtered to workflow, with the listener defaults](/images/app/workflows-settings.png "Settings → Workflows. Browser preview.")
 
 | Setting | Default |
 | --- | --- |

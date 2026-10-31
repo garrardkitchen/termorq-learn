@@ -8,7 +8,7 @@ weight: 1
 Route to one of two blocks based on an earlier value, then rejoin. **Time:** 15 minutes.
 {{% /callout %}}
 
-![Decision with YES and ELSE routes that converge on Notify](/images/app/workflows-decision.jpg "A decision with When and Else routes converging on one block.")
+![Decision "Any failures?" with WHEN and ELSE routes that converge on Write summary, and its When, Go to, and Else settings in the inspector](/images/app/workflows-decision.png "A decision with When and Else routes converging on one block; the inspector's Code tab holds the condition and targets. Browser preview with sample data.")
 
 ```yaml
 schema: 1

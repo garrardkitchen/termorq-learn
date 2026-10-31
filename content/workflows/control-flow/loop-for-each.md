@@ -8,7 +8,7 @@ weight: 2
 Run a block once per array item and use the collected results. **Time:** 15 minutes.
 {{% /callout %}}
 
-![Loop with a nested Notify user block in its body frame](/images/app/workflows-loop.jpg "A loop frame with a nested block.")
+![Loop "Each issue" with a nested AI block in its Loop body frame, and For each and Max in the inspector](/images/app/workflows-loop.png "A loop frame with a nested block; the inspector's Code tab sets For each and Max. Browser preview with sample data.")
 
 ```yaml
 schema: 1
