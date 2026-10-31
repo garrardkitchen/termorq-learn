@@ -1,4 +1,4 @@
-baseURL = 'https://garrardkitchen.github.io/termorq-learn/'
+baseURL = 'https://termorq-learn.garrardkitchen.com/'
 locale = 'en-GB'
 title = 'Termorq Learn'
 theme = 'hugo-theme-relearn'
